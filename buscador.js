@@ -3,7 +3,6 @@ const express = require('express')
 const plantillas = require('./templates.js')
 const Router = express.Router()
 const bodyParser = require('body-parser');
-//const fs = require('fs')
 const path = require('path')
 
 Router.use(bodyParser.json())
